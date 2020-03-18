@@ -9,6 +9,7 @@ class Header extends Component {
           <img className="header-profile" src={ profile } alt=""/>
           <h1 className="header-title">Kyran Stagg</h1>
           <h4 className="header-subtitle">Software Engineer</h4>
+          <i className="fas fa-arrow-down"></i>
       </div>
     )
   }

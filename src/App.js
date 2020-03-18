@@ -6,6 +6,8 @@ import Projects from './Projects'
 
 
 function App() {
+  
+
   return (
     <div className='App'>
       < SideNavBar/>
