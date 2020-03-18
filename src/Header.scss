@@ -1,0 +1,23 @@
+.header {
+    animation: 1s ease-out 0s 1 slideUp;
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+
+.header-profile {
+  margin-top: 5rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(4rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
