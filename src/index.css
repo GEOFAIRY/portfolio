@@ -5,6 +5,8 @@
   --text-secondary: #ececec;
   --bg-primary: #003663;
   --bg-secondary: #141418;
+  --bg-tertiary: #394150;
+  --bg-quaternary: #282c34;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
+  background-color: var(--bg-quaternary);
 }
 
 code {

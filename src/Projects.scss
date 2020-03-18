@@ -1,11 +1,11 @@
 .card {
-  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 19rem;
   height: 30rem;
   position: relative;
   text-align: center;
+  background: var(--bg-tertiary);
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -29,7 +29,7 @@
   width: 30rem;
   height: 5rem;
   display: flex;
-  align-items: center;
+  align-items: center;  
   margin: 0 auto;
 }
 
@@ -61,8 +61,8 @@
 }
 
 .projects {
-  display: inline-grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
   grid-gap: 0.5rem;
 }
 
