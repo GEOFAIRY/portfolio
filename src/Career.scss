@@ -24,9 +24,12 @@
     width: 100%;
   }
   
-  a {
+  .careers a:nth-child(1) {
       position: inherit;
       grid-column-start: 2;
+  }
+
+  .careers a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
   }

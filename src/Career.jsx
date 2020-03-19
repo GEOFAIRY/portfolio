@@ -23,6 +23,7 @@ class Career extends Component {
             </div>
           </div>
           </a>
+          <a href="http://countdown.co.nz/">
           <div className='card-career'>
             <img src={countdown} alt='Avatar' style={{ borderRadius: "50%" }}></img>
             <div className='container'>
@@ -32,6 +33,7 @@ class Career extends Component {
               <p>Team member for 6 years</p>
             </div>
           </div>
+          </a>
         </div>
       </div>
     )

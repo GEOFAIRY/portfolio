@@ -16,6 +16,7 @@ class Projects extends Component {
           A few projects I've created in my own time.
         </p>
         <div className='projects'>
+          <a href="https://github.com/GEOFAIRY/Team-300-ODMS">
           <div className='card'>
             <img src={odms} alt='Avatar'></img>
             <div className='container'>
@@ -25,6 +26,8 @@ class Projects extends Component {
               <p>Organ Donation Managment for UC</p>
             </div>
           </div>
+          </a>
+          <a href="https://github.com/GEOFAIRY/raid-2">
           <div className='card'>
             <img src={destiny} alt='Avatar'></img>
             <div className='container'>
@@ -34,6 +37,8 @@ class Projects extends Component {
               <p>Raid group finder for Destiny 2</p>
             </div>
           </div>
+          </a>
+          <a href='https://github.com/GEOFAIRY/portfolio'>
           <div className='card'>
             <img src={browser} alt='Avatar'></img>
             <div className='container'>
@@ -43,6 +48,7 @@ class Projects extends Component {
               <p>A portfolio site for me! This Site! Crazy!</p>
             </div>
           </div>
+          </a>
           <div className='card'>
             <img src={add} alt='Avatar'></img>
             <div className='container'>
