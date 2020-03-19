@@ -4,6 +4,7 @@ import SideNavBar from './SideNavBar'
 import Header from './Header'
 import Projects from './Projects'
 import Career from './Career'
+import About from './About'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       < Header/>
       < Projects/>
       < Career/>
+      < About/>
       </main>
     </div>
   )

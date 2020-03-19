@@ -8,6 +8,7 @@ class SideNavBar extends Component {
     this.handleProfileClick = this.handleProfileClick.bind(this)
     this.handleProjectClick = this.handleProjectClick.bind(this)
     this.handleCareerClick = this.handleCareerClick.bind(this)
+    this.handleAboutClick = this.handleAboutClick.bind(this)
   }
 
   handleProfileClick() {
@@ -20,6 +21,10 @@ class SideNavBar extends Component {
 
   handleCareerClick() {
     window.scrollTo(0, 1600)
+  }
+
+  handleAboutClick() {
+    window.scrollTo(0, 2400)
   }
 
   render() {
@@ -92,6 +97,48 @@ class SideNavBar extends Component {
               </svg>
               <span className='link-text'>Career</span>
             </div>
+          </li>
+          <li className='nav-item'>
+            <div className='nav-link' onClick={this.handleAboutClick}>
+              <svg
+                aria-hidden='true'
+                focusable='false'
+                data-prefix='fas'
+                data-icon='question'
+                className='svg-inline--fa fa-question fa-w-12'
+                role='img'
+                xmlns='http://www.w3.org/2000/svg'
+                viewBox='0 0 384 512'
+              >
+                <path
+                  fill='currentColor'
+                  d='M202.021 0C122.202 0 70.503 32.703 29.914 91.026c-7.363 10.58-5.093 25.086 5.178 32.874l43.138 32.709c10.373 7.865 25.132 6.026 33.253-4.148 25.049-31.381 43.63-49.449 82.757-49.449 30.764 0 68.816 19.799 68.816 49.631 0 22.552-18.617 34.134-48.993 51.164-35.423 19.86-82.299 44.576-82.299 106.405V320c0 13.255 10.745 24 24 24h72.471c13.255 0 24-10.745 24-24v-5.773c0-42.86 125.268-44.645 125.268-160.627C377.504 66.256 286.902 0 202.021 0zM192 373.459c-38.196 0-69.271 31.075-69.271 69.271 0 38.195 31.075 69.27 69.271 69.27s69.271-31.075 69.271-69.271-31.075-69.27-69.271-69.27z'
+                ></path>
+              </svg>
+              <span className='link-text'>About</span>
+            </div>
+          </li>
+          <li className='nav-item'>
+            <a href='http://kyranstagg.co.nz/Resume-kyran-stagg.pdf'>
+              <div className='nav-link'>
+                <svg
+                  aria-hidden='true'
+                  focusable='false'
+                  data-prefix='fas'
+                  data-icon='file-download'
+                  className='svg-inline--fa fa-file-download fa-w-12'
+                  role='img'
+                  xmlns='http://www.w3.org/2000/svg'
+                  viewBox='0 0 384 512'
+                >
+                  <path
+                    fill='currentColor'
+                    d='M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z'
+                  ></path>
+                </svg>
+                <span className='link-text'>Resume</span>
+              </div>
+            </a>
           </li>
         </ul>
       </nav>

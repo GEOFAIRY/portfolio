@@ -57,3 +57,12 @@ main .career {
   background-size: cover;
   background-color: var(--bg-quaternary);
 }
+
+main .about {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  background-color: var(--bg-tertiary);
+}
