@@ -9,7 +9,7 @@ class Career extends Component {
       <div className='career'>
         <h3 className='career-title'>Career</h3>
         <p className='career-subtext'>
-          The companies and corperate projects I have worked for
+          The companies and corporate projects I have worked for
         </p>
         <div className='careers'>
             <a href="http://rides.co/">
