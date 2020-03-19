@@ -22,7 +22,7 @@ class Projects extends Component {
               <h4>
                 <b>Team300 ODMS</b>
               </h4>
-              <p>Organ Donation Managment for UC SENG302</p>
+              <p>Organ Donation Managment for UC</p>
             </div>
           </div>
           <div className='card'>
