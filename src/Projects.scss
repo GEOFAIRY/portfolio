@@ -55,9 +55,13 @@
 
 /* Add some padding inside the card container */
 .container {
-  padding: 1rem 3rem;
   position: absolute;
   bottom: 0;
+}
+
+.container .h4 {
+  position: absolute;
+  top: 0;
 }
 
 .projects {

@@ -3,6 +3,7 @@ import './App.css'
 import SideNavBar from './SideNavBar'
 import Header from './Header'
 import Projects from './Projects'
+import Career from './Career'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <main>
       < Header/>
       < Projects/>
+      < Career/>
       </main>
     </div>
   )

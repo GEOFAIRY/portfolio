@@ -7,6 +7,7 @@ class SideNavBar extends Component {
     super(props)
     this.handleProfileClick = this.handleProfileClick.bind(this)
     this.handleProjectClick = this.handleProjectClick.bind(this)
+    this.handleCareerClick = this.handleCareerClick.bind(this)
   }
 
   handleProfileClick() {
@@ -14,7 +15,11 @@ class SideNavBar extends Component {
   }
 
   handleProjectClick() {
-    window.scrollTo(0, 1000)
+    window.scrollTo(0, 800)
+  }
+
+  handleCareerClick() {
+    window.scrollTo(0, 1600)
   }
 
   render() {
@@ -69,7 +74,7 @@ class SideNavBar extends Component {
             </div>
           </li>
           <li className='nav-item'>
-            <div className='nav-link'>
+            <div className='nav-link' onClick={this.handleCareerClick}>
               <svg
                 aria-hidden='true'
                 focusable='false'

@@ -37,7 +37,7 @@ main .header {
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-color: #282c34;
+  background-color: var(--bg-quaternary);
 }
 
 main .project {
@@ -49,4 +49,11 @@ main .project {
   background-color: var(--bg-tertiary);
 }
 
-
+main .career {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-color: var(--bg-quaternary);
+}
