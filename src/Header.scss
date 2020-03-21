@@ -28,10 +28,25 @@
 }
 
 /* small screen */
-@media only screen and (max-width: 600px) {
+@media (pointer:none), (pointer:coarse) {
   .fa-arrow-down {
     position: absolute;
     margin-bottom: 6rem;
     bottom: 0;
+  }
+
+  .header-profile {
+    margin-top: 5rem;
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+  }
+
+  .header-title {
+    font-size: 70px;
+  }
+
+  .header-subtitle {
+    font-size: 50px;
   }
 }

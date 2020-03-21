@@ -63,7 +63,7 @@
   }
 
 
-  @media only screen and (max-width: 600px) {
+  @media (pointer:none), (pointer:coarse) {
     .careers a:nth-child(1) {
       position: inherit;
       grid-column-start: 1;
@@ -78,13 +78,18 @@
     .careers .card-career {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       transition: 0.3s;
-      width: 15rem;
-      height: 20rem;
+      width: 100%;
+      height: 50rem;
       position: relative;
       text-align: center;
-      background: var(--bg-tertiary);
+      background: var(--bg-quaternary);
     }
     
+    .careers .card-career img {
+      margin-top: 4rem;
+      width: 20rem;
+    }
+
     /* On mouse-over, add a deeper shadow */
     .card-career:hover {
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
