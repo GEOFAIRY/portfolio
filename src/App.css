@@ -32,7 +32,7 @@ main {
 }
 
 main .header {
-  position: sticky;
+  position: relative;
   top: 0;
   width: 100%;
   height: 100vh;
@@ -41,7 +41,7 @@ main .header {
 }
 
 main .project {
-  position: sticky;
+  position: relative;
   top: 0;
   width: 100%;
   height: 100vh;
@@ -50,7 +50,7 @@ main .project {
 }
 
 main .career {
-  position: sticky;
+  position: relative;
   top: 0;
   width: 100%;
   height: 100vh;
@@ -59,7 +59,7 @@ main .career {
 }
 
 main .about {
-  position: sticky;
+  position: relative;
   top: 0;
   width: 100%;
   height: 100vh;

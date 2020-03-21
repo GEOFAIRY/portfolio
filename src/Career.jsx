@@ -6,7 +6,7 @@ import countdown from './static/countdown.jpg'
 class Career extends Component {
   render() {
     return (
-      <div className='career'>
+      <div className='career' id="career">
         <h3 className='career-title'>Career</h3>
         <p className='career-subtext'>
           The companies and corporate projects I have worked for

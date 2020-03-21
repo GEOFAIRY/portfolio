@@ -10,7 +10,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className='project'>
+      <div className='project' id="project">
         <h3 className='projects-title'>Projects</h3>
         <p className='projects-subtext'>
           A few projects I've created in my own time.

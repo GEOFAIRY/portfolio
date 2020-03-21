@@ -10,7 +10,7 @@ import fontawesome from './static/fontawesome.png'
 class About extends Component {
   render() {
     return (
-      <div className='about'>
+      <div className='about' id="about">
         <h3 className='about-title'>About</h3>
         <div className='tech-info'>
           <h6 className='site-info'>Site built with</h6>

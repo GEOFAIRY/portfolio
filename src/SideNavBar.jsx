@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import $ from 'jquery'
 import './SideNavBar.scss'
 import profile from './static/profile.jpg'
 
@@ -12,19 +13,27 @@ class SideNavBar extends Component {
   }
 
   handleProfileClick() {
-    window.scrollTo(0, 0)
+    $('html, body').animate({
+      scrollTop: $("#header").offset().top
+  }, 1000);
   }
 
   handleProjectClick() {
-    window.scrollTo(0, 800)
+    $('html, body').animate({
+      scrollTop: $("#project").offset().top
+  }, 1000);
   }
 
   handleCareerClick() {
-    window.scrollTo(0, 1600)
+    $('html, body').animate({
+      scrollTop: $("#career").offset().top
+  }, 1000);
   }
 
   handleAboutClick() {
-    window.scrollTo(0, 2400)
+    $('html, body').animate({
+      scrollTop: $("#about").offset().top
+  }, 1000);
   }
 
   render() {
