@@ -10,30 +10,53 @@ class SideNavBar extends Component {
     this.handleProjectClick = this.handleProjectClick.bind(this)
     this.handleCareerClick = this.handleCareerClick.bind(this)
     this.handleAboutClick = this.handleAboutClick.bind(this)
+    this.profilePos = null;
+    this.projectPos = null;
+    this.careerPos = null;
+    this.aboutPos = null;
+  }
+
+  componentDidMount() {
+    this.profilePos = 0
+    this.projectPos = $('#project').offset().top
+    this.careerPos = $('#career').offset().top
+    this.aboutPos = $('#about').offset().top
   }
 
   handleProfileClick() {
-    $('html, body').animate({
-      scrollTop: $("#header").offset().top
-  }, 1000);
+    $('html, body').animate(
+      {
+        scrollTop: this.profilePos
+      },
+      1000
+    )
   }
 
   handleProjectClick() {
-    $('html, body').animate({
-      scrollTop: $("#project").offset().top
-  }, 1000);
+    $('html, body').animate(
+      {
+        scrollTop: this.projectPos
+      },
+      1000
+    )
   }
 
   handleCareerClick() {
-    $('html, body').animate({
-      scrollTop: $("#career").offset().top
-  }, 1000);
+    $('html, body').animate(
+      {
+        scrollTop: this.careerPos
+      },
+      1000
+    )
   }
 
   handleAboutClick() {
-    $('html, body').animate({
-      scrollTop: $("#about").offset().top
-  }, 1000);
+    $('html, body').animate(
+      {
+        scrollTop: this.aboutPos
+      },
+      1000
+    )
   }
 
   render() {
