@@ -1,8 +1,7 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 19rem;
-  height: 30rem;
+  height: 60vh;
   position: relative;
   text-align: center;
   background: var(--bg-tertiary);
@@ -26,8 +25,8 @@
 .footer-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 30rem;
-  height: 5rem;
+  width: 30vw;
+  height: 10vh;
   display: flex;
   align-items: center;  
   margin: 0 auto;
@@ -61,7 +60,7 @@
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
+  grid-template-columns: auto auto auto auto;
   grid-gap: 0.5rem;
 }
 
