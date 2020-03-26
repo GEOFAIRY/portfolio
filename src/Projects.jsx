@@ -19,7 +19,7 @@ class Projects extends Component {
           <a href="https://github.com/GEOFAIRY/Team-300-ODMS">
           <div className='card'>
             <img src={odms} alt='Avatar'></img>
-            <div className='container'>
+            <div className='card-container'>
               <h4>
                 <b>Team300 ODMS</b>
               </h4>
@@ -30,7 +30,7 @@ class Projects extends Component {
           <a href="https://github.com/GEOFAIRY/raid-2">
           <div className='card'>
             <img src={destiny} alt='Avatar'></img>
-            <div className='container'>
+            <div className='card-container'>
               <h4>
                 <b>Destiny 2 LFG (WIP)</b>
               </h4>
@@ -41,7 +41,7 @@ class Projects extends Component {
           <a href='https://github.com/GEOFAIRY/portfolio'>
           <div className='card'>
             <img src={browser} alt='Avatar'></img>
-            <div className='container'>
+            <div className='card-container'>
               <h4>
                 <b>This Web Site!</b>
               </h4>
@@ -51,7 +51,7 @@ class Projects extends Component {
           </a>
           <div className='card'>
             <img src={add} alt='Avatar'></img>
-            <div className='container'>
+            <div className='card-container'>
               <h4>
                 <b>More on the way</b>
               </h4>

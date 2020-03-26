@@ -3,7 +3,7 @@
   transition: 0.3s;
   height: 60vh;
   position: relative;
-  text-align: center;
+  align-content: center;
   background: var(--bg-tertiary);
 }
 
@@ -50,12 +50,15 @@
   display: flex;
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
+  width: 100%;
+  align-content: center;
 }
 
 /* Add some padding inside the card container */
-.container {
+.card-container {
   position: absolute;
   bottom: 0;
+  width: 100%;
 }
 
 .projects {

@@ -34,10 +34,10 @@
   }
   
   /* Add some padding inside the card container */
-  .container {
-    padding: 1rem 3rem;
+  .card-career .container {
     position: absolute;
     bottom: 0;
+    width: 100%;
   }
   
   .careers {
