@@ -88,6 +88,10 @@
   text-decoration: inherit; /* no underline */
 }
 
+#seek-img {
+  border-radius: 50%;
+}
+
 
 @media (pointer:none), (pointer:coarse) {
   .projects {

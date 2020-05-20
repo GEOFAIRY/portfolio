@@ -4,7 +4,7 @@ import odms from './static/odms.png'
 import destiny from './static/Destiny.png'
 import browser from './static/browser.png'
 import github from './static/github.png'
-import add from './static/plus.png'
+import seek from './static/seek.png'
 
 class Projects extends Component {
 
@@ -38,6 +38,17 @@ class Projects extends Component {
             </div>
           </div>
           </a>
+          <a href='https://github.com/GEOFAIRY/Seek-Job-Scraper'>
+          <div className='card'>
+            <img src={seek} alt='Avatar' id="seek-img"></img>
+            <div className='card-container'>
+              <h4>
+                <b>Seek Job Scraper</b>
+              </h4>
+              <p>Small program to assit me in finding work</p>
+            </div>
+          </div>
+          </a>
           <a href='https://github.com/GEOFAIRY/portfolio'>
           <div className='card'>
             <img src={browser} alt='Avatar'></img>
@@ -49,19 +60,8 @@ class Projects extends Component {
             </div>
           </div>
           </a>
-          <div className='card'>
-            <img src={add} alt='Avatar'></img>
-            <div className='card-container'>
-              <h4>
-                <b>More on the way</b>
-              </h4>
-              <p>Watch this space!
-                or my Github.
-              </p>
-            </div>
-          </div>
         </div>
-        <div className='row'>  
+        <div className='row'>
           <div className='footer-card'>
           <a href="https://github.com/GEOFAIRY" >
             <img src={github} alt='Avatar'></img>
