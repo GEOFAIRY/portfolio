@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import './Projects.scss'
-import odms from './static/odms.png'
-import destiny from './static/Destiny.png'
-import browser from './static/browser.png'
-import github from './static/github.png'
-import seek from './static/seek.png'
+import '../css/Projects.scss'
+import odms from '../static/odms.png'
+import destiny from '../static/Destiny.png'
+import browser from '../static/browser.png'
+import github from '../static/github.png'
+import seek from '../static/seek.png'
 
 class Projects extends Component {
 

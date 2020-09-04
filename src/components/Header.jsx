@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import './Header.scss'
-import profile from './static/profile.jpg'
+import '../css/Header.scss'
+import profile from '../static/profile.jpg'
 
 class Header extends Component {
   render() {

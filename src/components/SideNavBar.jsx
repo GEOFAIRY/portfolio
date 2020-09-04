@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import $ from 'jquery'
-import './SideNavBar.scss'
-import profile from './static/profile.jpg'
+import '../css/SideNavBar.scss'
+import profile from '../static/profile.jpg'
 
 class SideNavBar extends Component {
   constructor(props) {
@@ -67,7 +67,7 @@ class SideNavBar extends Component {
             <div className='nav-profile'>
               <img className='nav-profile-image' src={profile} alt='' />
               <h3 className='nav-profile-text'>Kyran Stagg</h3>
-              <span className='nav-profile-subtext'>Software Engineer</span>
+              <h5 className='nav-profile-subtext'>Software Engineer</h5>
             </div>
           </li>
           <li className='nav-item'>

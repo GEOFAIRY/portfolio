@@ -1,0 +1,39 @@
+.tech-info img {
+    width: 7vw;
+    height: 7vw;
+    padding: 1vw;
+}
+
+.about-title {
+    font-size: 6vw;
+    margin: 2vw;
+}
+
+.site-info {
+    font-size: 1vw;
+}
+
+.contact-info p {
+    font-size: 1.5vw;
+}
+
+@media (pointer: none), (pointer: coarse) {
+    .tech-info img {
+        width: 10vw;
+        height: 10vw;
+        padding: 1vw;
+    }
+
+    .about-title {
+        font-size: 10vw;
+        margin: 2vw;
+    }
+
+    .site-info {
+        font-size: 5vw;
+    }
+
+    .contact-info p {
+        font-size: 3vw;
+    }
+}

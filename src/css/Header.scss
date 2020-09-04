@@ -1,0 +1,66 @@
+.header {
+  animation: 1s ease-out 0s 1 slideUp;
+  height: 100vh;
+}
+
+.header-profile {
+  margin: 10vh;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 3vw;
+}
+
+.header-subtitle {
+  margin: 2vh;
+  font-size: 1vw;
+}
+
+.fa-arrow-down {
+  position: absolute;
+  margin-bottom: 4vh;
+  bottom: 0;
+  font-size: 2vh;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(8vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* small screen */
+@media (pointer: none), (pointer: coarse) {
+  .header-profile {
+    margin: 10vh;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+
+  .header-title {
+    margin: 0;
+    font-size: 5vw;
+  }
+
+  .header-subtitle {
+    margin: 2vh;
+    font-size: 3vw;
+  }
+
+  .fa-arrow-down {
+    position: absolute;
+    margin-bottom: 20vh;
+    bottom: 0;
+    font-size: 2vh;
+  }
+}

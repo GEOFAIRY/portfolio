@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import './About.scss'
+import '../css/About.scss'
 
-import azure from './static/azure.png'
-import react from './static/react.png'
-import nodejs from './static/nodejs.png'
-import git from './static/github.png'
-import fontawesome from './static/fontawesome.png'
+import azure from '../static/azure.png'
+import react from '../static/react.png'
+import nodejs from '../static/nodejs.png'
+import git from '../static/github.png'
+import fontawesome from '../static/fontawesome.png'
 
 class About extends Component {
   render() {

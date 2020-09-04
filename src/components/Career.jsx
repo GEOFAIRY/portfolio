@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import './Career.scss'
-import rides from './static/porky.png'
-import countdown from './static/countdown.jpg'
-import nzesl from './static/nzesl.png'
+import '../css/Career.scss'
+import rides from '../static/porky.png'
+import countdown from '../static/countdown.jpg'
+import nzesl from '../static/nzesl.png'
+import work from '../static/work.png'
 
 class Career extends Component {
   render() {
@@ -18,7 +19,7 @@ class Career extends Component {
               <img
                 src={nzesl}
                 alt='Avatar'
-                style={{ marginTop: '9rem' }}
+                id="nzesl-img"
               ></img>
               <div className='container'>
                 <h4>
@@ -33,7 +34,7 @@ class Career extends Component {
               <img
                 src={rides}
                 alt='Avatar'
-                style={{ marginTop: '10rem' }}
+                id="rides-img"
               ></img>
               <div className='container'>
                 <h4>
@@ -58,6 +59,18 @@ class Career extends Component {
               </div>
             </div>
           </a>
+          <div className='card-career'>
+              <img
+                src={work}
+                alt='Avatar'
+              ></img>
+              <div className='container'>
+                <h4>
+                  <b>Hire Me!</b>
+                </h4>
+                <p>Opportunity is calling</p>
+              </div>
+            </div>
         </div>
       </div>
     )

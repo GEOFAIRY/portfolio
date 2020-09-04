@@ -19,42 +19,45 @@
   width: 100%;
 }
 
-
 .nav-profile {
   align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-  height: 10rem;
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  height: 20vh;
   color: var(--text-primary);
   text-decoration: none;
   transition: var(--transition-speed);
 }
 
 .nav-profile-image {
-  height: 3rem;
+  height: 6vh;
+  width: 6vh;
   border-radius: 50%;
-  margin: 0 0.5rem;
+  margin: 0;
   transition: all 300ms ease-in-out;
   filter: grayscale(100%) opacity(0.7);
 }
 
 .nav-profile-text {
     visibility: hidden;
-    margin-top: 3rem;
+    margin-top: 6vh;
     white-space: nowrap;
+    font-size: 2vw;
+    margin-bottom: 1vh;
 }
 
 .nav-profile-subtext {
     font-style: italic;
     visibility: hidden;
-    margin-top: 2rem;
+    margin-top: 2vh;
     white-space: nowrap;
+    font-size: 1vw;
 }
 
 .nav-link {
   display: flex;
   align-items: center;
-  height: 5rem;
+  height: 10vh;
   color: var(--text-primary);
   text-decoration: none;
   filter: grayscale(100%) opacity(0.7);
@@ -63,20 +66,21 @@
 
 .link-text {
   display: none;
-  margin-left: 1rem;
+  margin-left: 1vw;
+  font-size: 2vw;
 }
 
 .nav-link svg {
-  width: 2rem;
-  min-width: 2rem;
-  margin: 0 1.5rem;
+  width: 2vw;
+  min-width: 2vw;
+  margin: 0 2vw;
 }
 
 /* Large screens */
 @media (pointer:fine) {
   .navbar {
     top: 0;
-    width: 5rem;
+    width: 6vw;
     height: 100vh;
   }
 
@@ -85,7 +89,7 @@
   }
 
   .navbar:hover {
-    width: 16rem;
+    width: 20vw;
   }
 
   .navbar:hover .link-text {
@@ -93,7 +97,7 @@
   }
 
   .navbar:hover .nav-profile {
-    transform: translateY(3rem);
+    transform: translateY(5vh);
   }
 
   .navbar:hover .nav-profile-text {
@@ -110,7 +114,7 @@
   }
 
   .navbar:hover .logo svg {
-    margin-left: 11rem;
+    margin-left: 11vw;
   }
 
   .navbar:hover .logo-text {
@@ -129,7 +133,7 @@
   .navbar {
     bottom: 0;
     width: 100%;
-    height: 10rem;
+    height: 10vh;
   }
 
   .nav-item:nth-child(1) {
@@ -137,9 +141,9 @@
   }
 
   .nav-link svg {
-    width: 4rem;
-    min-width: 2rem;
-    margin: 0 1.5rem;
+    width: 4vh;
+    min-width: 2vh;
+    margin: 0 1.5vw;
   }
 
   .logo {
