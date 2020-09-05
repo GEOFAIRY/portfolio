@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 import '../css/Career.scss'
-import rides from '../static/porky.png'
-import countdown from '../static/countdown.jpg'
-import nzesl from '../static/nzesl.png'
-import work from '../static/work.png'
+import rides from '../static/porky.webp'
+import countdown from '../static/countdown.webp'
+import nzesl from '../static/nzesl.webp'
+import work from '../static/work.webp'
+import ridesalt from '../static/porky.png'
+import countdownalt from '../static/countdown.jpg'
+import nzeslalt from '../static/nzesl.png'
+import workalt from '../static/work.png'
 
 class Career extends Component {
   render() {
@@ -18,7 +22,7 @@ class Career extends Component {
             <div className='card-career'>
               <img
                 src={nzesl}
-                alt='Avatar'
+                alt={nzeslalt}
                 id="nzesl-img"
               ></img>
               <div className='container'>
@@ -33,7 +37,7 @@ class Career extends Component {
             <div className='card-career'>
               <img
                 src={rides}
-                alt='Avatar'
+                alt={ridesalt}
                 id="rides-img"
               ></img>
               <div className='container'>
@@ -48,7 +52,7 @@ class Career extends Component {
             <div className='card-career'>
               <img
                 src={countdown}
-                alt='Avatar'
+                alt={countdownalt}
                 style={{ borderRadius: '50%' }}
               ></img>
               <div className='container'>
@@ -62,7 +66,7 @@ class Career extends Component {
           <div className='card-career'>
               <img
                 src={work}
-                alt='Avatar'
+                alt={workalt}
               ></img>
               <div className='container'>
                 <h4>
