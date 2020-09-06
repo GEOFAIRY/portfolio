@@ -1,16 +1,16 @@
 import React, {Component} from 'react'
 import '../css/About.scss'
 
-import azure from '../static/azure.webp'
-import react from '../static/react.webp'
-import nodejs from '../static/nodejs.webp'
-import git from '../static/github.webp'
-import fontawesome from '../static/fontawesome.webp'
-import azurealt from '../static/azure.png'
-import reactalt from '../static/react.png'
-import nodejsalt from '../static/nodejs.png'
-import gitalt from '../static/github.png'
-import fontawesomealt from '../static/fontawesome.png'
+// import azure from '../static/azure.webp'
+// import react from '../static/react.webp'
+// import nodejs from '../static/nodejs.webp'
+// import git from '../static/github.webp'
+// import fontawesome from '../static/fontawesome.webp'
+import azure from '../static/azure.png'
+import react from '../static/react.png'
+import nodejs from '../static/nodejs.png'
+import git from '../static/github.png'
+import fontawesome from '../static/fontawesome.png'
 
 class About extends Component {
   render() {
@@ -20,19 +20,19 @@ class About extends Component {
         <div className='tech-info'>
           <h6 className='site-info'>Site built with</h6>
           <a href='http://azure.microsoft.com/'>
-            <img src={azure} alt={azurealt} />
+            <img src={azure} alt='azure' />
           </a>
           <a href='https://reactjs.org/'>
-            <img src={react} alt={reactalt} />
+            <img src={react} alt='react' />
           </a>
           <a href='https://nodejs.org/'>
-            <img src={nodejs} alt={nodejsalt} />
+            <img src={nodejs} alt='node' />
           </a>
           <a href='http://github.com/'>
-            <img src={git} alt={gitalt} />
+            <img src={git} alt='git' />
           </a>
           <a href='https://fontawesome.com/'>
-            <img src={fontawesome} alt={fontawesomealt} />
+            <img src={fontawesome} alt='font awesome' />
           </a>
         </div>
         <div className='contact-info'>
