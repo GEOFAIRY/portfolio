@@ -152,7 +152,7 @@ class SideNavBar extends Component {
             </div>
           </li>
           <li className='nav-item'>
-            <a href='http://kyranstagg.co.nz/Resume-kyran-stagg.pdf'>
+            <a href='https://drive.google.com/file/d/1gacvXSCU-cT7ecbicGj0GypayptAns1g/view?usp=sharing'>
               <div className='nav-link'>
                 <svg
                   aria-hidden='true'
