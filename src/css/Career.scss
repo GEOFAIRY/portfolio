@@ -22,7 +22,7 @@
 }
 
 .card-career p {
-  font-size: 0.8vw;
+  font-size: 1.2vw;
 }
 
 .careers a {
@@ -56,7 +56,7 @@
 .career-subtext {
   text-align: left;
   margin-left: 3vh;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 #nzesl-img {
@@ -78,7 +78,7 @@
     box-shadow: 0 0.5vw 1vh 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     position: relative;
     text-align: center;
     background: var(--bg-quaternary);
@@ -107,11 +107,12 @@
   }
 
   .card-career h4 {
-    font-size: 3vw;
+    font-size: 4.5vw;
+    margin-bottom: 1vh;
   }
 
   .card-career p {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
 
   #nzesl-img {

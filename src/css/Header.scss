@@ -12,12 +12,13 @@
 
 .header-title {
   margin: 0;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .header-subtitle {
   margin: 2vh;
-  font-size: 1vw;
+  font-size: 2vw;
+  font-style: italic;
 }
 
 .fa-arrow-down {
@@ -42,19 +43,19 @@
 @media (pointer: none), (pointer: coarse) {
   .header-profile {
     margin: 10vh;
-    width: 50vw;
-    height: 50vw;
+    width: 60vw;
+    height: 60vw;
     border-radius: 50%;
   }
 
   .header-title {
     margin: 0;
-    font-size: 5vw;
+    font-size: 12vw;
   }
 
   .header-subtitle {
     margin: 2vh;
-    font-size: 3vw;
+    font-size: 5vw;
   }
 
   .fa-arrow-down {

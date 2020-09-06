@@ -9,10 +9,11 @@
 
 .card h4 {
   font-size: 1.5vw;
+  margin-top: 0;
 }
 
 .card p {
-  font-size: 0.8vw;
+  font-size: 1.2vw;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -90,7 +91,7 @@
 .projects-subtext {
   text-align: left;
   margin-left: 3vh;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 .projects a {
@@ -106,14 +107,14 @@
   .projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    grid-gap: 1vw;
+    grid-gap: 3vw;
   }
 
   .projects .card {
     box-shadow: 0 0.5vw 1vh 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     width: 100%;
-    height: 30vh;
+    height: 33vh;
     position: relative;
     text-align: center;
     background: var(--bg-tertiary);
@@ -122,6 +123,7 @@
   .projects .card img {
     margin-top: 4vh;
     width: 30vw;
+    margin-bottom: 1vh;
   }
 
   /* On mouse-over, add a deeper shadow */
@@ -130,7 +132,7 @@
   }
 
   .footer-card {
-    width: 40vw;
+    width: 50vw;
   }
 
   .projects-title {
@@ -146,17 +148,18 @@
   }
 
   .card h4 {
-    font-size: 3vw;
+    font-size: 4.5vw;
+    margin-bottom: 1vh;
   }
 
   .card p {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
 
   .footer-card p {
     margin: 1vh;
     margin-left: 2vw;
-    font-size: 2vw;
+    font-size: 3vw;
     display: inline;
   }
 }

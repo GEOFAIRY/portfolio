@@ -50,7 +50,7 @@ class Projects extends Component {
               <h4>
                 <b>Seek Job Scraper</b>
               </h4>
-              <p>Small program to assit me in finding work</p>
+              <p>Notifies when a new job is posted</p>
             </div>
           </div>
           </a>
